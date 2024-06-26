@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Note.create([
+  { title: 'First Note', content: 'This is the content of the first note.' },
+  { title: 'Second Note', content: 'This is the content of the second note.' },
+  { title: 'Third Note', content: 'This is the content of the third note.' }
+])
+
